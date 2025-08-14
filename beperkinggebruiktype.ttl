@@ -125,7 +125,7 @@
 <https://data.razu.nl/id/beperkinggebruiktype/3f71885c8fdcf4390a055fcb65af0232>
     a skos:Concept ;
     skos:prefLabel "Beperkt gebruik - Rechten onbekend"@nl ;
-    skos:note """Ondanks redelijke inspanningen zijn de rechthebbende(n) - of hun rechtsopvolger(s) - van dit werk niet geïdentificeerd of bereikt. Ga ervan uit dat dit werk volledig auteursrechtelijk beschermd is; hergebruik is uitsluitend toegestaan met toestemming van de rechthebbende(n). Bent u de maker of rechthebbende? Neem dan contact op met ooc@razu.nl.
+    skos:note """Ondanks redelijke inspanningen zijn de rechthebbende(n) - of hun rechtsopvolger(s) - van dit werk niet geïdentificeerd of is contact uitgebleven. Ga ervan uit dat dit werk volledig auteursrechtelijk beschermd is; hergebruik is uitsluitend toegestaan met toestemming van de rechthebbende(n). Bent u de maker of rechthebbende? Neem dan contact op met ooc@razu.nl.
     """@nl ;
     skos:inScheme <https://data.razu.nl/id/beperkinggebruiktype/eec50697074c187a5e279dbd44252ad1> .
 
