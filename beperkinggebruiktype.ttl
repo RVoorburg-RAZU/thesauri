@@ -78,7 +78,8 @@
     a skos:Concept ;
     skos:prefLabel "Naamsvermelding & NietCommercieel"@nl ;
     skos:altLabel "CC BY-NC"@nl ;
-    skos:note "De gebruiker dient de maker van het werk te vermelden, een link naar de licentie te plaatsen en aan te geven of het werk veranderd is. Je mag het werk niet gebruiken voor commerciële doeleinden."@nl ;
+    skos:note "Er rusten auteursrechten op dit werk U mag het downloaden, delen, kopiëren, publiceren en bewerken met volledige naams- en bronvermelding, uitsluitend voor niet-commercieel gebruik."@nl ;
+    skos:exactMatch <https://creativecommons.org/licenses/by-nc/4.0/> ;
     skos:inScheme <https://data.razu.nl/id/beperkinggebruiktype/eec50697074c187a5e279dbd44252ad1> .
 
 <https://data.razu.nl/id/beperkinggebruiktype/9e4e7f2c29de6371c095df7b80df0850>
@@ -124,7 +125,8 @@
 <https://data.razu.nl/id/beperkinggebruiktype/3f71885c8fdcf4390a055fcb65af0232>
     a skos:Concept ;
     skos:prefLabel "Beperkt gebruik - Rechten onbekend"@nl ;
-    skos:note "Rechten zijn onbekend. Ga ervan uit dat rechten volledig liggen bij de auteur. Vraag toestemming aan de maker (of zijn rechtverkrijgenden, zoals erfgenamen of uitgever) voordat je het werk mag gebruiken."@nl ;
+    skos:note """Ondanks redelijke inspanningen zijn de rechthebbende(n) - of hun rechtsopvolger(s) - van dit werk niet geïdentificeerd of bereikt. Ga ervan uit dat dit werk volledig auteursrechtelijk beschermd is; hergebruik is uitsluitend toegestaan met toestemming van de rechthebbende(n). Bent u de maker of rechthebbende? Neem dan contact op met ooc@razu.nl.
+    """@nl ;
     skos:inScheme <https://data.razu.nl/id/beperkinggebruiktype/eec50697074c187a5e279dbd44252ad1> .
 
 <https://data.razu.nl/id/beperkinggebruiktype/2a747f5ab4430d474995c8fcd877c7ef>
