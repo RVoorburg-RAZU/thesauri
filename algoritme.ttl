@@ -1,0 +1,16 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://data.razu.nl/id/algoritme/15eda032483eb222b6992b55bc0e50ea>
+  a skos:ConceptScheme ;
+  skos:prefLabel "Begrippenlijst algoritmes"@nl ;
+  skos:note "Begrippenlijst algoritmes"@nl ;
+  dcterms:hasFormat <https://context.opslag.razu.nl/algoritme.json> .
+
+<https://data.razu.nl/id/algoritme/7f138a09169b250e9dcb378140907378>
+  a skos:Concept ;
+  skos:prefLabel "Message Digest Algorithm 5"@nl ;
+  skos:altLabel "MD5"@nl ;
+  skos:note "MD5 (Message Digest Algorithm 5) hashfunctie"@nl ;
+  skos:exactMatch <http://www.wikidata.org/entity/Q185235>, <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5> ;
+  skos:inScheme <https://data.razu.nl/id/algoritme/15eda032483eb222b6992b55bc0e50ea> .

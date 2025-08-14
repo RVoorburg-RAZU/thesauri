@@ -1,0 +1,141 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+<https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e>
+   a skos:ConceptScheme ;
+   skos:prefLabel "Actoren"@nl ;
+   skos:note "Waardenlijst actoren"@nl ;
+   dcterms:hasFormat <https://context.opslag.razu.nl/actor.json> .
+
+<https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "Regionaal Archief Zuid-Utrecht"@nl ;
+   skos:altLabel "RAZU"@nl ;
+   skos:notation "k50907905" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q121221853> ;
+   schema:url <https://www.razu.nl/> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/feae08aa6f9214231815e9ed7b3816d9>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "Bestuur Regionaal Archief Zuid-Utrecht"@nl ;
+   skos:altLabel "Bestuur RAZU"@nl ;
+   skos:broader <https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/424280985651f416dfb6a68ee8ee6c6a>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Houten"@nl ;
+   skos:altLabel "Houten"@nl ;
+   skos:notation "g0321" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q10044> ;
+   schema:url <https://www.houten.nl/> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+ <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Bunnik"@nl ;
+   skos:altLabel "Bunnik"@nl ;
+   skos:notation "g0312" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   schema:url <https://www.bunnik.nl/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q10032> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
+
+ <https://data.razu.nl/id/actor/124f62d77ae9d7beadab9dc57bced177>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Rhenen"@nl ;
+   skos:altLabel "Rhenen"@nl ;
+   skos:notation "g0340" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   schema:url <https://www.rhenen.nl/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q10040> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
+
+ <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Utrechtse Heuvelrug"@nl ;
+   skos:altLabel "Utrechtse Heuvelrug"@nl ;
+   skos:notation "g1581" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   schema:url <https://www.heuvelrug.nl/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q10043> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
+
+ <https://data.razu.nl/id/actor/54c9a2e607988deae23c920dae4f43e4>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Wijk bij Duurstede"@nl ;
+   skos:altLabel "Wijk bij Duurstede"@nl ;
+   skos:notation "g0352" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   schema:url <https://www.wijkbijduurstede.nl/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q10053> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+ <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b>
+   a schema:Organization, skos:Concept;
+   skos:prefLabel "Gemeente Vijfheerenlanden"@nl ;
+   skos:altLabel "Vijfheerenlanden"@nl ;
+   skos:notation "g1961" ;
+   skos:scopeNote "Predicate 'skos:notation' offers the identier used in the naming scheme for files as used by RAZU."@en,
+        "Predicaat 'skos:notation' biedt de identifier die gebruikt wordt in het model dat RAZU toepast bij de naamgeving van bestanden"@nl ;
+   schema:url <https://www.vijfheerenlanden.nl/>;  
+   skos:exactMatch <http://www.wikidata.org/entity/Q29032345> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/ccedcee97bc84c621b2a04f2731bf86c>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "Delta-Phot Luchtfotografie Middelburg Holland"@nl ;
+   rdfs:seeAlso <https://hdl.handle.net/10648/1118a373-4da4-4db3-aa9f-83fcd9c983ff> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/1bf73a1ffcfe062158a0f341b3615cbe>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "Slagboom en Peeters"@nl ;
+   schema:url <https://www.slagboomenpeeters.com/>;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/fdf07d26952c341ed9a70909eb3a4a73>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "B. Ruitenbeek"@nl ;
+   skos:altLabel "Drukkerij B. Ruitenbeek - Doorn"@nl ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/ee065aecf4e6ecad10e8cd8bd9954a6f>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "BDUmedia BV"@nl ;
+   schema:url <https://bdumedia.nl/>;
+   skos:broader <https://data.razu.nl/id/actor/3087aad1bee701908c4f821ebad860c6> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/3087aad1bee701908c4f821ebad860c6>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "BDU"@nl;
+   skos:altLabel "Koninklijke Barneveldse Drukkerij en Uitgeverij"@nl ;
+   schema:url <http://www.bdu.nl/>;
+   skos:exactMatch <http://www.wikidata.org/entity/Q46779166> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/7334e8dd664c53f1ec683c4fef8b9927>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "Kontakt Mediapartners"@nl;
+   schema:url <https://kmp.nl/> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/b45727406af009edb49448c7291adce3>
+   a schema:Organization, skos:Concept ;
+   skos:prefLabel "DPG Media"@nl;
+   schema:url <https://www.dpgmediagroup.com/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q63020424> ;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .

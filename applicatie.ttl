@@ -1,0 +1,72 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix premis: <http://www.loc.gov/premis/rdf/v3/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+# de schema:identifier wordt met md5 gebruikt om de uri te minten
+
+
+<https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949>
+   a skos:ConceptScheme ;
+   skos:prefLabel "Applicaties"@nl ;
+   skos:note "Register sofware-applicaties"@nl ;
+   dcterms:hasFormat <https://context.opslag.razu.nl/applicatie.json> .
+
+<https://data.razu.nl/id/applicatie/435f06bd2040d14bbacfbefb6e9a9bba>
+    a schema:ProductModel, skos:Concept ; 
+    skos:prefLabel "DROID"@nl ;
+    schema:name "DROID" ;
+    schema:description "DROID is a software tool developed by The National Archives (UK) to perform automated batch identification of file formats. DROID uses internal signatures to identify and report the specific file format and version of digital files. These signatures are stored in an XML signature file, generated from information recorded in the PRONOM technical registry. New and updated signatures are regularly added to PRONOM, and DROID can be configured to automatically download updated signature files"@en ;
+    schema:identifier "droid" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q24305922> ;
+    rdfs:seeAlso <https://www.nationalarchives.gov.uk/PRONOM/>, <https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/> ;
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .
+
+<https://data.razu.nl/id/applicatie/2d612ab7d6c98702d0e83b9c2339c69c>
+    a premis:SoftwareAgent, schema:SoftwareApplication, skos:Concept ; 
+    skos:prefLabel "DROID"@nl ;
+    schema:name "DROID" ;
+    schema:model <https://data.razu.nl/id/applicatie/435f06bd2040d14bbacfbefb6e9a9bba> ;
+    schema:version "6.7.0" ;
+    schema:identifier "droid 6.7.0-119-20240715" ; 
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .
+    
+<https://data.razu.nl/id/applicatie/1d7104dc068ca27a7f85d4eb18414097>
+    a premis:SoftwareAgent, schema:SoftwareApplication, skos:Concept ; 
+    skos:prefLabel "DROID"@nl ;
+    schema:name "DROID" ;
+    schema:model <https://data.razu.nl/id/applicatie/435f06bd2040d14bbacfbefb6e9a9bba> ;
+    schema:version "6.8.0" ;
+    schema:identifier "droid 6.8.0-118-20240501" ; 
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .
+
+<https://data.razu.nl/id/applicatie/dfca6374fe51ae9de8a846b531573cc8>
+    a schema:ProductModel, skos:Concept ; 
+    skos:prefLabel "Clam AntiVirus"@nl ;
+    schema:name "Clam AntiVirus" ;
+    schema:alternateName "ClamAV" ;
+    schema:description "ClamAV is an open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats."@en ;
+    schema:identifier "clamav" ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q852000> ;
+    rdfs:seeAlso <https://www.clamav.net/> ;
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .
+
+<https://data.razu.nl/id/applicatie/8250b0e968bbfd704b53b1d44abbf7cb>
+    a premis:SoftwareAgent, schema:SoftwareApplication, skos:Concept ; 
+    skos:prefLabel "Clam AntiVirus"@nl ;
+    schema:name "Clam AntiVirus" ;
+    schema:model <https://data.razu.nl/id/applicatie/dfca6374fe51ae9de8a846b531573cc8> ;
+    schema:version " 0.103.12" ;
+    schema:identifier "clamav 0.103.12/27434" ;
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .
+    
+<https://data.razu.nl/id/applicatie/09f90b15b53f77637ec94b12857f4e67>
+    a premis:SoftwareAgent, schema:SoftwareApplication, skos:Concept ; 
+    skos:prefLabel "Clam AntiVirus"@nl ;
+    schema:name "Clam AntiVirus" ;
+    schema:model <https://data.razu.nl/id/applicatie/dfca6374fe51ae9de8a846b531573cc8> ;
+    schema:version " 0.103.12" ;
+    schema:identifier "clamav 0.103.12/27462" ;
+    skos:inScheme <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949> .

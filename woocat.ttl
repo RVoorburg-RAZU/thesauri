@@ -1,0 +1,128 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f>
+  a skos:ConceptScheme ;
+  skos:note "Informatiecategorieën Wet openbaarheid overheid"@nl ;
+  skos:prefLabel "Informatiecategorieën Woo"@nl ;
+  dcterms:hasFormat <https://context.opslag.razu.nl/woocat.json> .
+
+<https://data.razu.nl/id/woocat/a2e0be35531e403bee720684e487bb77>
+    a skos:Concept ;
+    skos:prefLabel "Wetten en algemeen verbindende voorschriften"@nl ;
+    skos:definition "Wetten en andere algemeen verbindende voorschriften"@nl ;
+    skos:notation "3.3 1a" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/757c46dec08d1831ba16308c374c9d0a>
+    a skos:Concept ;
+    skos:prefLabel "Overige besluiten van algemene strekking"@nl ;
+    skos:definition "Overige besluiten van algemene strekking"@nl ;
+    skos:notation "3.3 1b" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/cb1cfc71b13eb7db0717bd8f64a2b98e>
+    a skos:Concept ;
+    skos:prefLabel "Ontwerpen van wet- en regelgeving met adviesaanvraag"@nl ;
+    skos:definition "Ontwerpen van wetten, andere algemeen verbindende voorschriften en overige besluiten van algemene strekking waarover een extern advies is gevraagd, met inbegrip van de adviesaanvraag"@nl ;
+    skos:notation "3.3 1c" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/5749ba72fabf2266dd7b64437478d559>
+    a skos:Concept ;
+    skos:prefLabel "Organisatie en werkwijze"@nl ;
+    skos:definition "Inzicht in zijn organisatie en werkwijze, waaronder de taken en bevoegdheden van de organisatieonderdelen"@nl ;
+    skos:notation "3.3 1d" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/ce2f267ef1690193243897ed11ec2689>
+    a skos:Concept ;
+    skos:prefLabel "Bereikbaarheidsgegevens"@nl ;
+    skos:definition "De bereikbaarheid van het bestuursorgaan en zijn organisatieonderdelen en de wijze waarop een verzoek om informatie kan worden ingediend"@nl ;
+    skos:notation "3.3 1e" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/1df2fc8840c00a0444753d015a752171>
+    a skos:Concept ;
+    skos:prefLabel "Bij vertegenwoordigende organen ingekomen stukken"@nl ;
+    skos:definition "Bij de Kamers en de verenigde vergadering der Staten-Generaal, provinciale staten, gemeenteraden en algemene besturen van waterschappen ter behandeling ingekomen stukken, tenzij deze betrekking hebben op door de regering vertrouwelijk aan de Staten-Generaal verstrekte informatie of tenzij deze betrekking hebben op individuele gevallen"@nl ;
+    skos:notation "3.3 2a" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/d330f28c273ff66bcb8dbb35842ca144>
+    a skos:Concept ;
+    skos:prefLabel "Vergaderstukken Staten-Generaal"@nl ;
+    skos:definition "Vergaderstukken en verslagen van de Kamers en de verenigde vergadering der Staten-Generaal en hun commissies, tenzij deze betrekking hebben op door de regering vertrouwelijk aan de Staten-Generaal verstrekte informatie"@nl ;
+    skos:notation "3.3 2b" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/7b9534ca8ec4be2a2485ec3b6951243c>
+    a skos:Concept ;
+    skos:prefLabel "Vergaderstukken decentrale overheden"@nl ;
+    skos:definition "Vergaderstukken en verslagen van provinciale staten, gemeenteraden en algemene besturen van waterschappen, algemene besturen van openbare lichamen, besturen van bedrijfsvoeringsorganisaties en gemeenschappelijke organen als bedoeld in de Wet gemeenschappelijke regelingen en hun commissies"@nl ;
+    skos:notation "3.3 2c" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/d9f797afec522e5498135d6cf29f0d95>
+    a skos:Concept ;
+    skos:prefLabel "Agenda's en besluitenlijsten bestuurscolleges"@nl ;
+    skos:definition "Agenda's en besluitenlijsten van vergaderingen van de ministerraad, gedeputeerde staten, colleges van burgemeester en wethouders en dagelijkse besturen van waterschappen en dagelijkse besturen van openbare lichamen als bedoeld in de Wet gemeenschappelijke regelingen"@nl ;
+    skos:notation "3.3 2d" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/a93d0383c62080b9ff6cd98fdf32ee9f>
+    a skos:Concept ;
+    skos:prefLabel "Adviezen"@nl ;
+    skos:definition "Adviezen: 1°.over de ontwerpen, bedoeld in het eerste lid, onderdeel c, van adviescolleges of -commissies alsmede van andere externe partijen indien die om advies zijn verzocht, 2° over andere onderwerpen van adviescolleges of -commissies, alsmede de op dat advies betrekking hebbende adviesaanvraag, uitgezonderd adviezen die betrekking hebben op individuele gevallen"@nl ;
+    skos:notation "3.3 2e" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/148edec8c30b5ff4b185267301f2c805>
+    a skos:Concept ;
+    skos:prefLabel "Convenanten"@nl ;
+    skos:definition "Convenanten"@nl ;
+    skos:notation "3.3 2f" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/adb5627a23119e6edba809b273e4ba7d>
+    a skos:Concept ;
+    skos:prefLabel "Jaarplannen en jaarverslagen"@nl ;
+    skos:definition "Jaarplannen en jaarverslagen van bestuursorganen inzake de voorgenomen uitvoering van de taak of de verantwoording van die uitvoering"@nl ;
+    skos:notation "3.3 2g" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/1d50f9e5f0216b61adb133d890e98a22>
+    a skos:Concept ;
+    skos:prefLabel "Subsidieverplichtingen anders dan met beschikking"@nl ;
+    skos:definition "Verplichtingen tot verstrekking van subsidies, anders dan met een beschikking"@nl ;
+    skos:skopeNote "alleen bij Min. BZ"@nl ;
+    skos:notation "3.3 2h" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/19d451a3b3afc83865d6d5a03618b162>
+    a skos:Concept ;
+    skos:prefLabel "Woo-verzoeken en -besluiten"@nl ;
+    skos:definition "De inhoud van de schriftelijke verzoeken op grond van artikel 4.1, van de schriftelijke beslissingen op die verzoeken en de daarbij verstrekte informatie"@nl ;
+    skos:notation "3.3 2i" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/a26a8e06620ed27993161ddcd958676c>
+    a skos:Concept ;
+    skos:prefLabel "Onderzoeksrapporten"@nl ;
+    skos:definition "Op verzoek van een bestuursorgaan ambtelijk of extern opgestelde onderzoeksrapporten die geen onderdeel vormen van de uitvoering van de taak van dat bestuursorgaan, die voornamelijk uit feitelijk materiaal bestaan en die betrekking hebben op: 1°.de wijze van functioneren van de eigen organisatie, 2°.de voorbereiding of de evaluatie van beleid, inclusief de uitvoering, naleving en handhaving"@nl ;
+    skos:notation "3.3 2j" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/5a498334ec3ca8dc19ee8c8223a7c2d9>
+    a skos:Concept ;
+    skos:prefLabel "Beschikkingen"@nl ;
+    skos:definition "Beschikkingen, met uitzondering van 21 categorieën"@nl ;
+    skos:notation "3.3 2k" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
+
+<https://data.razu.nl/id/woocat/6e31cf309a6536de2132fffe4ffa728f>
+    a skos:Concept ;
+    skos:prefLabel "Klachtoordelen"@nl ;
+    skos:definition "Schriftelijke oordelen in klachtprocedures als bedoeld in titel 9.1 van de Algemene wet bestuursrecht"@nl ;
+    skos:notation "3.3 2l" ;
+    skos:inScheme <https://data.razu.nl/id/woocat/0aa7408986826e63fdceac35ac21b43f> .
