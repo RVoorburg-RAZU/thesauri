@@ -24,6 +24,19 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2380583> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+<https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f> 
+    a schema:Place, skos:Concept ;
+    skos:prefLabel "Haaften (plaats)"@nl ;
+    schema:name "Haaften"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2117 51.8169)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Haaften."@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q58404> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 <https://data.razu.nl/id/locatie/c0d1ae18a5cccce8d6e9847ba94904ff> 
     a schema:Place, skos:Concept ;
     skos:prefLabel "Houten (plaats)"@nl ;
@@ -35,19 +48,6 @@
         schema:description "Een representatief punt in de plaats Houten."@nl 
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33446293> ;
-    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
-
-<https://data.razu.nl/id/locatie/c03189135b5f13ea1da74bd972d8f57a>
-    a schema:Place, skos:Concept  ;
-    skos:prefLabel "Tull en 't Waal (plaats)"@nl ;
-    schema:name "Tull en 't Waal"@nl ;
-    geo:hasGeometry [ 
-        a geo:Geometry ;
-        geo:asWKT "POINT(5.13315 52.00157)"^^geo:wktLiteral ;
-        geo:crs ogc:CRS84 ;
-        schema:description "Een representatief punt in de plaats Tull en 't Waal"@nl 
-    ] ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q2139917> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ab8f1762b5e7bb47da861056a230d940>
@@ -62,6 +62,20 @@
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2724869> ;
     skos:inScheme <https://data.razu.nl/id//00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/c03189135b5f13ea1da74bd972d8f57a>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Tull en 't Waal (plaats)"@nl ;
+    schema:name "Tull en 't Waal"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.13315 52.00157)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Tull en 't Waal"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2139917> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 
 <https://data.razu.nl/id/locatie/c9682aad1ada5d296dc66925d15d256c>
     a schema:Place, skos:Concept  ;
@@ -868,6 +882,19 @@
         schema:description "Een representatief punt in de plaats Benschop"@nl 
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2896698> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Zaltbommel (plaats)"@nl ;
+    schema:name "Zaltbommel"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.247 51.81231)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Zaltbommel"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q73462> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ca41927f3891927ad3d7aa5396ff886f>

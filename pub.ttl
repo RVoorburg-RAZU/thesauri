@@ -336,9 +336,22 @@
     a schema:Newspaper ; 
     schema:name "De Gecombineerde" ;
     schema:alternateName "De gecombineerde Geldersche en Zuidhollandsche bladen" ;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/8c8ec9962dc0b4af128c71ad16f6bd58>,
+        <https://data.razu.nl/id/locatie/0d076228b6f2d07d253fffe2e1f43923>,
+        <https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>,
+        <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>,
+        <https://data.razu.nl/id/locatie/3a182a55824e737e55369e8cafbe1e93>,
+        <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>,
+        <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>,
+        <https://data.razu.nl/id/locatie/a6977baa61d147ab3e53e6fb6e6e987e>,
+        <https://data.razu.nl/id/locatie/258e2dc080f58e9c77e6077c5b6c604f>,
+        <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>,
+        <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>,
+        <https://data.razu.nl/id/locatie/fe789059e054f79e4c3bcd1b11efc2a8>,
+        <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f> ,
+        <https://data.razu.nl/id/locatie/5ee3c06dfd71df6edc77d921d365de19> ;
     schema:temporalCoverage "1891?/1987?" ; 
     schema:inLanguage "nl" .  
-
 
 # <https://data.razu.nl/id/pub/b40c78310d608f607660e2af18100e88>  
 #     a schema:Newspaper ; 
