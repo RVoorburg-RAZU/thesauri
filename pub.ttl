@@ -332,13 +332,12 @@
     schema:inLanguage "nl" .  
 
 
-# <https://data.razu.nl/id/pub/fe56b7a1d75d92a0a76d8f3c4a085793>  
-#     a schema:Newspaper ; 
-#     schema:name "De Gecombineerde" ;
-#     schema:alternateName "De gecombineerde Geldersche en Zuidhollandsche bladen" ;
-#     schema:spatialCoverage ;
-#     schema:temporalCoverage "1947?/1987?" ; 
-#     schema:inLanguage "nl" .  
+<https://data.razu.nl/id/pub/fe56b7a1d75d92a0a76d8f3c4a085793>  
+    a schema:Newspaper ; 
+    schema:name "De Gecombineerde" ;
+    schema:alternateName "De gecombineerde Geldersche en Zuidhollandsche bladen" ;
+    schema:temporalCoverage "1891?/1987?" ; 
+    schema:inLanguage "nl" .  
 
 
 # <https://data.razu.nl/id/pub/b40c78310d608f607660e2af18100e88>  
