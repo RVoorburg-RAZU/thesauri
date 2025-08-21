@@ -357,6 +357,7 @@
     a schema:Newspaper ; 
     schema:name "De Gecombineerde Gelderland" ;
     schema:spatialCoverage <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>,
+        <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>,
         <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>,
         <https://data.razu.nl/id/locatie/e81cc69de1f06c1553cbb8eb0a53b34b>,
         <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>,
@@ -398,26 +399,147 @@
     schema:inLanguage "nl" .  
 
 
-# <https://data.razu.nl/id/9e78b5e97274c20918b89c9fcc831c48>  
-#     a schema:Newspaper ; 
-#     schema:name "De Gecombineerde Zuid-Holland" ;
-#     schema:spatialCoverage ;
-#     schema:temporalCoverage "?/?" ; 
-#     schema:inLanguage "nl" .  
+<https://data.razu.nl/id/pub/f23f238942e2f400e8838b5a48e586cf>  
+    a schema:Newspaper ; 
+    schema:name "De Gecomineerde Midden Nederland" ;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>,
+        <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>,
+        <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>,
+        <https://data.razu.nl/id/locatie/e81cc69de1f06c1553cbb8eb0a53b34b>,
+        <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>,
+        <https://data.razu.nl/id/locatie/3a182a55824e737e55369e8cafbe1e93>,
+        <https://data.razu.nl/id/locatie/ded2262e650d333631f1bc12db81a2fd>,
+        <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>,
+        <https://data.razu.nl/id/locatie/9ef6deecc4799c07a54c953f5721a5ed>,
+        <https://data.razu.nl/id/locatie/2502acebd5887f2fc1fa98bb416bcffa>,
+        <https://data.razu.nl/id/locatie/8c8ec9962dc0b4af128c71ad16f6bd58>,
+        <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f>,
+        <https://data.razu.nl/id/locatie/6095143773896ebe2f897a724adb9dc5>,
+        <https://data.razu.nl/id/locatie/9fdafafdc273158a716d67e41e1db1dd>,
+        <https://data.razu.nl/id/locatie/a88551f513733db885c209b84e85592d>,
+        <https://data.razu.nl/id/locatie/5ee3c06dfd71df6edc77d921d365de19>,
+        <https://data.razu.nl/id/locatie/a6977baa61d147ab3e53e6fb6e6e987e>,
+        <https://data.razu.nl/id/locatie/fefe908a1760a56236417d1f41b224c0>,
+        <https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>,
+        <https://data.razu.nl/id/locatie/ad3762fb5fe06410bce65993bfc09043>,
+        <https://data.razu.nl/id/locatie/0d076228b6f2d07d253fffe2e1f43923>,
+        <https://data.razu.nl/id/locatie/fe789059e054f79e4c3bcd1b11efc2a8>,
+        <https://data.razu.nl/id/locatie/f9cff50bbea84828ce8b1f2f38e4c8c1>,
+        <https://data.razu.nl/id/locatie/258e2dc080f58e9c77e6077c5b6c604f>,
+        <https://data.razu.nl/id/locatie/c965f7d9fb76f8a223b11c4885b1f3dd>,
+        <https://data.razu.nl/id/locatie/51ca4ea3fa26f2fba05b1d86c72dc769>,
+        <https://data.razu.nl/id/locatie/b4a0335d5091e45ce0f0d8ad0b541862>,
+        <https://data.razu.nl/id/locatie/d82258d71a51197508c611e51c5602b6>,
+        <https://data.razu.nl/id/locatie/b30417283592bc71c36516eae524e0e6>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/88919878dee9eb75ee069e114be5b657>,
+        <https://data.razu.nl/id/locatie/e1455a4027b8d2249c14593e637e602c>,
+        <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>,
+        <https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>,
+        <https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>,
+        <https://data.razu.nl/id/locatie/f14093198c026c353be44d0291ee34ee>,
+        <https://data.razu.nl/id/locatie/eea5778fc06b4857ea8baa7001e07fb5>;
+    schema:temporalCoverage "1891?/?" ; 
+    schema:inLanguage "nl" .  
 
 
-# <https://data.razu.nl/id/pub/f23f238942e2f400e8838b5a48e586cf>  
-#     a schema:Newspaper ; 
-#     schema:name "De Gecomineerde Midden-Nederland" ;
-#     schema:spatialCoverage ;  als G?
-#     schema:temporalCoverage "?/?" ; 
-#     schema:inLanguage "nl" .  
+<https://data.razu.nl/id/9e78b5e97274c20918b89c9fcc831c48>  
+    a schema:Newspaper ; 
+    schema:name "De Gecombineerde Zuid-Holland" ;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>,
+        <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>,
+        <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>,
+        <https://data.razu.nl/id/locatie/e81cc69de1f06c1553cbb8eb0a53b34b>,
+        <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>,
+        <https://data.razu.nl/id/locatie/3a182a55824e737e55369e8cafbe1e93>,
+        <https://data.razu.nl/id/locatie/ded2262e650d333631f1bc12db81a2fd>,
+        <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>,
+        <https://data.razu.nl/id/locatie/9ef6deecc4799c07a54c953f5721a5ed>,
+        <https://data.razu.nl/id/locatie/2502acebd5887f2fc1fa98bb416bcffa>,
+        <https://data.razu.nl/id/locatie/8c8ec9962dc0b4af128c71ad16f6bd58>,
+        <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f>,
+        <https://data.razu.nl/id/locatie/6095143773896ebe2f897a724adb9dc5>,
+        <https://data.razu.nl/id/locatie/9fdafafdc273158a716d67e41e1db1dd>,
+        <https://data.razu.nl/id/locatie/a88551f513733db885c209b84e85592d>,
+        <https://data.razu.nl/id/locatie/5ee3c06dfd71df6edc77d921d365de19>,
+        <https://data.razu.nl/id/locatie/a6977baa61d147ab3e53e6fb6e6e987e>,
+        <https://data.razu.nl/id/locatie/fefe908a1760a56236417d1f41b224c0>,
+        <https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>,
+        <https://data.razu.nl/id/locatie/ad3762fb5fe06410bce65993bfc09043>,
+        <https://data.razu.nl/id/locatie/0d076228b6f2d07d253fffe2e1f43923>,
+        <https://data.razu.nl/id/locatie/fe789059e054f79e4c3bcd1b11efc2a8>,
+        <https://data.razu.nl/id/locatie/f9cff50bbea84828ce8b1f2f38e4c8c1>,
+        <https://data.razu.nl/id/locatie/258e2dc080f58e9c77e6077c5b6c604f>,
+        <https://data.razu.nl/id/locatie/c965f7d9fb76f8a223b11c4885b1f3dd>,
+        <https://data.razu.nl/id/locatie/51ca4ea3fa26f2fba05b1d86c72dc769>,
+        <https://data.razu.nl/id/locatie/b4a0335d5091e45ce0f0d8ad0b541862>,
+        <https://data.razu.nl/id/locatie/d82258d71a51197508c611e51c5602b6>,
+        <https://data.razu.nl/id/locatie/b30417283592bc71c36516eae524e0e6>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/88919878dee9eb75ee069e114be5b657>,
+        <https://data.razu.nl/id/locatie/e1455a4027b8d2249c14593e637e602c>,
+        <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>,
+        <https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>,
+        <https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>,
+        <https://data.razu.nl/id/locatie/f14093198c026c353be44d0291ee34ee>,
+        <https://data.razu.nl/id/locatie/eea5778fc06b4857ea8baa7001e07fb5>;
+    schema:temporalCoverage "1891?/?" ; 
+    schema:inLanguage "nl" .  
 
 
-# <https://data.razu.nl/id/pub/5d45e29232a8bf5532b55c5f7c840309>  
-#     a schema:Newspaper ; 
-#     schema:name "De Gecombineerde West-Betuwe" ;
-#     schema:spatialCoverage 
-#         ;
-#     schema:temporalCoverage "?/?" ; 
-#     schema:inLanguage "nl" .  
+<https://data.razu.nl/id/pub/5d45e29232a8bf5532b55c5f7c840309>  
+    a schema:Newspaper ; 
+    schema:name "De Gecombineerde West Betuwe" ;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>,
+        <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>,
+        <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>,
+        <https://data.razu.nl/id/locatie/e81cc69de1f06c1553cbb8eb0a53b34b>,
+        <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>,
+        <https://data.razu.nl/id/locatie/3a182a55824e737e55369e8cafbe1e93>,
+        <https://data.razu.nl/id/locatie/ded2262e650d333631f1bc12db81a2fd>,
+        <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>,
+        <https://data.razu.nl/id/locatie/9ef6deecc4799c07a54c953f5721a5ed>,
+        <https://data.razu.nl/id/locatie/2502acebd5887f2fc1fa98bb416bcffa>,
+        <https://data.razu.nl/id/locatie/8c8ec9962dc0b4af128c71ad16f6bd58>,
+        <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f>,
+        <https://data.razu.nl/id/locatie/6095143773896ebe2f897a724adb9dc5>,
+        <https://data.razu.nl/id/locatie/9fdafafdc273158a716d67e41e1db1dd>,
+        <https://data.razu.nl/id/locatie/a88551f513733db885c209b84e85592d>,
+        <https://data.razu.nl/id/locatie/5ee3c06dfd71df6edc77d921d365de19>,
+        <https://data.razu.nl/id/locatie/a6977baa61d147ab3e53e6fb6e6e987e>,
+        <https://data.razu.nl/id/locatie/fefe908a1760a56236417d1f41b224c0>,
+        <https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>,
+        <https://data.razu.nl/id/locatie/ad3762fb5fe06410bce65993bfc09043>,
+        <https://data.razu.nl/id/locatie/0d076228b6f2d07d253fffe2e1f43923>,
+        <https://data.razu.nl/id/locatie/fe789059e054f79e4c3bcd1b11efc2a8>,
+        <https://data.razu.nl/id/locatie/f9cff50bbea84828ce8b1f2f38e4c8c1>,
+        <https://data.razu.nl/id/locatie/258e2dc080f58e9c77e6077c5b6c604f>,
+        <https://data.razu.nl/id/locatie/c965f7d9fb76f8a223b11c4885b1f3dd>,
+        <https://data.razu.nl/id/locatie/51ca4ea3fa26f2fba05b1d86c72dc769>,
+        <https://data.razu.nl/id/locatie/b4a0335d5091e45ce0f0d8ad0b541862>,
+        <https://data.razu.nl/id/locatie/d82258d71a51197508c611e51c5602b6>,
+        <https://data.razu.nl/id/locatie/b30417283592bc71c36516eae524e0e6>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/88919878dee9eb75ee069e114be5b657>,
+        <https://data.razu.nl/id/locatie/e1455a4027b8d2249c14593e637e602c>,
+        <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>,
+        <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>,
+        <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>,
+        <https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>,
+        <https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>,
+        <https://data.razu.nl/id/locatie/f14093198c026c353be44d0291ee34ee>,
+        <https://data.razu.nl/id/locatie/eea5778fc06b4857ea8baa7001e07fb5>;
+    schema:temporalCoverage "1891?/?" ; 
+    schema:inLanguage "nl" .  
+
+<https://data.razu.nl/id/pub/0b9eecce5815b757cd097bbda895b9e5>  
+    a schema:Newspaper ; 
+    schema:name "De Gecombineerde Vijfheerenlanden" ;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/ca41927f3891927ad3d7aa5396ff886f>, <https://data.razu.nl/id/locatie/97622407cb0f2fe2bd8bb5b8c788340c>;
+    schema:temporalCoverage "1891?/?" ; 
+    schema:inLanguage "nl" .  
+

@@ -38,6 +38,20 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2916660> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+
+<https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Buren (plaats)"@nl ;
+    schema:name "Buren"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.333611 51.910833)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Buren"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1087187> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>
     a schema:Place, skos:Concept  ;
     skos:prefLabel "Enspijk (plaats)"@nl ;
