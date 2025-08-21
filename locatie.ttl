@@ -24,6 +24,179 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2380583> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+
+<https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Brakel (plaats)"@nl ;
+    schema:name "Brakel"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.0886 51.8169)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Brakel"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2916660> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Enspijk (plaats)"@nl ;
+    schema:name "Enspijk"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2131 51.8836)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Enspijk"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q73277> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/2502acebd5887f2fc1fa98bb416bcffa>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Gameren (plaats)"@nl ;
+    schema:name "Gamerenijk"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2003 51.8011)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Gameren"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q171245> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/a88551f513733db885c209b84e85592d>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Hellouw (plaats)"@nl ;
+    schema:name "Hellouw"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.1769 51.8275)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Hellouw"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2148331> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Kerkdriel (plaats)"@nl ;
+    schema:name "Kerkdriel"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.3367 51.7711)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Kerkdriel"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3112493> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/f9cff50bbea84828ce8b1f2f38e4c8c1>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Maurik (plaats)"@nl ;
+    schema:name "Maurik"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.4236 51.96)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Maurik"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2453631> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/c965f7d9fb76f8a223b11c4885b1f3dd>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Meteren (plaats)"@nl ;
+    schema:name "Meteren"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2822 51.8653)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Meteren"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3112511> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/51ca4ea3fa26f2fba05b1d86c72dc769>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Nederhemert (plaats)"@nl ;
+    schema:name "Nederhemert"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.16817 51.76518)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Nederhemert"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2677372> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/b30417283592bc71c36516eae524e0e6>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Ophemert (plaats)"@nl ;
+    schema:name "Ophemert"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.3842 51.8453)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Ophemert"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3110411> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Opijnen (plaats)"@nl ;
+    schema:name "Opijnen"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2983 51.8278)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Opijnen"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2098932> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Tricht (plaats)"@nl ;
+    schema:name "Tricht"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2725 51.89)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Tricht"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3112503> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Waardenburg (plaats)"@nl ;
+    schema:name "Waardenburg"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.2558 51.8322)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Waardenburg"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2797402> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/f14093198c026c353be44d0291ee34ee>
+    a schema:Place, skos:Concept  ;
+    skos:prefLabel "Zoelen (plaats)"@nl ;
+    schema:name "Zoelen"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.4 51.916667)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Zoelen"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1985335> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f> 
     a schema:Place, skos:Concept ;
     skos:prefLabel "Haaften (plaats)"@nl ;
