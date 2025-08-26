@@ -555,14 +555,13 @@
 <https://data.razu.nl/id/pub/2956d613ec600415536432485a2342c5>  
     a schema:Newspaper ; 
     schema:name "De Burensche Courant" ;
-    schema:spatialCoverage <https://data.razu.nl/id/locatie/ca41927f3891927ad3d7aa5396ff886f>, <https://data.razu.nl/id/locatie/97622407cb0f2fe2bd8bb5b8c788340c>;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>;
     schema:temporalCoverage "1905?/?" ; 
     schema:inLanguage "nl" .  
-
 
 <https://data.razu.nl/id/pub/ccd7d344856d5ee93fb1fcdd52a6f7db>  
     a schema:Newspaper ; 
     schema:name "Ameidensch Nieuwsblad" ;
-    schema:spatialCoverage <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>;
+    schema:spatialCoverage <https://data.razu.nl/id/locatie/b5644eaf70a46a09fa1c3e03274867c6>;
     schema:temporalCoverage "1900?/?" ; 
     schema:inLanguage "nl" .  
