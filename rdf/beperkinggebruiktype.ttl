@@ -5,13 +5,13 @@
 <https://data.razu.nl/id/beperkinggebruiktype/eec50697074c187a5e279dbd44252ad1>
   a skos:ConceptScheme ;
   skos:prefLabel "Typering mogelijke beperkingen gebruik"@nl ;
-  skos:note "Typering mogelijke beperkingen in het gebruik van, of de toegang tot, een informatieobject."@nl ;
+  skos:description "Typering mogelijke beperkingen in het gebruik van, of de toegang tot, een informatieobject."@nl ;
   dcterms:hasFormat <https://context.opslag.razu.nl/beperkinggebruiktype.json> .
 
 <https://data.razu.nl/id/beperkinggebruiktype/3e82de530014486e637ea9257088ccea>
     a skos:Collection ;
     skos:prefLabel "Auteursrecht"@nl ;
-    skos:note "Groepeerde auteursrechtelijke condities gebruik"@nl ;
+    skos:description "Groepeerde auteursrechtelijke condities gebruik"@nl ;
     skos:member <https://data.razu.nl/id/beperkinggebruiktype/d62b6d3ea088ceab27217c05307c9c56> ,
         <https://data.razu.nl/id/beperkinggebruiktype/428dde6dfa2a08b7df8875a7600b3097> ,
         <https://data.razu.nl/id/beperkinggebruiktype/0ee107032f9027f2d9c6ba381b881f29> ,
@@ -28,7 +28,7 @@
 <https://data.razu.nl/id/beperkinggebruiktype/45d3fea5c7895348590a22f5134fd2d7>
     a skos:Collection ;
     skos:prefLabel "Openbaarheid"@nl ;
-    skos:note "Groepeerde beperkingen openbaarheid"@nl ;
+    skos:description "Groepeerde beperkingen openbaarheid"@nl ;
     skos:member <https://data.razu.nl/id/beperkinggebruiktype/7c06ee72d9cbd6a8ab71f6d409c34a20> ,
         <https://data.razu.nl/id/beperkinggebruiktype/f5fb6f6efcdb8c2392af00c73b918412> ,
         <https://data.razu.nl/id/beperkinggebruiktype/6d9800579bad4dbeddc7b370aa5c2505> ,
@@ -39,7 +39,7 @@
     a skos:Concept ;
     skos:prefLabel "Geen openbaarheidsbeperkingen"@nl ;
     skos:altLabel "Openbaar"@nl ;
-    skos:note "Er zijn geen beperkingen ten aanzien van de openbaarheid."@nl ;
+    skos:description "Er zijn geen beperkingen ten aanzien van de openbaarheid."@nl ;
     skos:inScheme <https://data.razu.nl/id/beperkinggebruiktype/eec50697074c187a5e279dbd44252ad1> .
 
 <https://data.razu.nl/id/beperkinggebruiktype/f5fb6f6efcdb8c2392af00c73b918412>

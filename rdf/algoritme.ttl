@@ -4,7 +4,7 @@
 <https://data.razu.nl/id/algoritme/15eda032483eb222b6992b55bc0e50ea>
   a skos:ConceptScheme ;
   skos:prefLabel "Begrippenlijst algoritmes"@nl ;
-  skos:note "Begrippenlijst algoritmes"@nl ;
+  skos:description "Begrippenlijst algoritmes"@nl ;
   dcterms:hasFormat <https://context.opslag.razu.nl/algoritme.json> .
 
 <https://data.razu.nl/id/algoritme/7f138a09169b250e9dcb378140907378>

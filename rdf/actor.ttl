@@ -7,7 +7,7 @@
 <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e>
    a skos:ConceptScheme ;
    skos:prefLabel "Actoren"@nl ;
-   skos:note "Waardenlijst actoren"@nl ;
+   skos:description "Waardenlijst actoren"@nl ;
    dcterms:hasFormat <https://context.opslag.razu.nl/actor.json> .
 
 <https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a>

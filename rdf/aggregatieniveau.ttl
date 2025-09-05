@@ -4,7 +4,7 @@
 <https://data.razu.nl/id/aggregatieniveau/37b10081ed00e0e430c071ed04c99aee>
   a skos:ConceptScheme ;
   skos:prefLabel "Aggregatieniveaus"@nl ;
-  skos:note "Aggregatieniveaus"@nl ;
+  skos:description "Aggregatieniveaus"@nl ;
   dcterms:hasFormat <https://context.opslag.razu.nl/aggregatieniveau.json> .
 
 <https://data.razu.nl/id/aggregatieniveau/62d05f1b8d586edb7da7f257be926705>
