@@ -11,7 +11,7 @@
 <https://data.razu.nl/id/applicatie/a18f1b22ffd9f023bce2d8a74d27d949>
    a skos:ConceptScheme ;
    skos:prefLabel "Applicaties"@nl ;
-   skos:note "Register sofware-applicaties"@nl ;
+   skos:description "Register sofware-applicaties"@nl ;
    dcterms:hasFormat <https://context.opslag.razu.nl/applicatie.json> .
 
 <https://data.razu.nl/id/applicatie/435f06bd2040d14bbacfbefb6e9a9bba>

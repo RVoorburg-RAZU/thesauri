@@ -20,11 +20,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Afgeleide bestanden
-*.json
-*.csv
-*.xlsx
-*.pdf
 
 # IDE
 .idea/
@@ -35,3 +30,6 @@ wheels/
 # Overig
 .env
 .DS_Store
+
+generated
+venv

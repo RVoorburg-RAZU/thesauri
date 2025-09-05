@@ -3,8 +3,8 @@
 
 <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9>
   a skos:ConceptScheme ;
-  skos:note "Eventtype" ;
-  skos:prefLabel "Type of soort event" ;
+  skos:description "Type of soort event" ;
+  skos:prefLabel "Eventtype" ;
   skos:skopeNote "Wordt gebruikt voor events vóór overdracht naar de archiefinstelling, typisch bij MDTO-events." ;
   dcterms:hasFormat <https://context.opslag.razu.nl/eventtype.json> .
 

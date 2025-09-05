@@ -2,6 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 @prefix ex: <http://www.example.com/#> .  
 
@@ -29,7 +30,7 @@ ex:ConceptShape a sh:NodeShape ;
             [ sh:datatype xsd:string ]  
             [ sh:datatype rdf:langString ]  
         ) ;
-        sh:minCount 1 ; 
+        sh:minCount 0 ; 
     ] ;
     sh:property [
         sh:path skos:altLabel ;
@@ -38,7 +39,6 @@ ex:ConceptShape a sh:NodeShape ;
             [ sh:datatype rdf:langString ] 
         ) ;
         sh:minCount 0 ;  
-        sh:maxCount 1 ; 
     ] ;
     sh:property [
         sh:path skos:note ;
@@ -52,10 +52,9 @@ ex:ConceptShape a sh:NodeShape ;
         sh:path skos:exactMatch ;
         sh:nodeKind sh:IRI ; 
         sh:minCount 0 ; 
-        sh:maxCount 1 ; 
     ] ;
     sh:nodeKind sh:IRI ; 
-    sh:pattern "^https://data\\.razu\\.nl/gedeeld/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/gedeeld/*/* .
+    sh:pattern "^https://data\\.razu\\.nl/id/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/id/*/* .
 
 # Shape voor skos:ConceptScheme entiteiten
 ex:ConceptSchemeShape a sh:NodeShape ;
@@ -77,6 +76,13 @@ ex:ConceptSchemeShape a sh:NodeShape ;
         ) ;
         sh:minCount 1 ; 
     ] ;
+    sh:property [
+        sh:path dcterms:hasFormat ;
+        sh:minCount 1 ; 
+        sh:maxCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https://context\\.opslag\\.razu\\.nl/[a-z0-9]+\\.json$"
+    ] ;
     sh:nodeKind sh:IRI ; 
-    sh:pattern "^https://data\\.razu\\.nl/gedeeld/[^/]+/$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/gedeeld/*/ .
+    sh:pattern "^https://data\\.razu\\.nl/id/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/id/*/* .
 

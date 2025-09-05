@@ -3,7 +3,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <https://data.razu.nl/id/bestandsformaat/21b73c5c25b191625d98b2b9bd5826ba> a skos:ConceptScheme ;
-    skos:note "Begrippenlijst bestandsformaten, gebaseerd op PRONOM." ;
+    skos:description "Begrippenlijst bestandsformaten, gebaseerd op PRONOM." ;
     skos:prefLabel "Bestandsformaten" ;
     dcterms:hasFormat <https://context.opslag.razu.nl/bestandsformaat.json> .
 

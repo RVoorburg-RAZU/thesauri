@@ -3,7 +3,7 @@
 
 <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53>
   a skos:ConceptScheme ;
-  skos:note "Begrippenlijst voor de aard van de betrokkenheid" ;
+  skos:description "Begrippenlijst voor de aard van de betrokkenheid" ;
   skos:prefLabel "Aard betrokkenheid" ;
   dcterms:hasFormat <https://context.opslag.razu.nl/betrokkenheid.json> .
 

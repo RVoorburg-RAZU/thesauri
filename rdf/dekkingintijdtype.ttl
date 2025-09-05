@@ -3,7 +3,7 @@
 
 <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e>
   a skos:ConceptScheme ;
-  skos:note "Nadere typering van het tijdstip of de periode waar de inhoud van het informatieobject betrekking op heeft." ;
+  skos:description "Nadere typering van het tijdstip of de periode waar de inhoud van het informatieobject betrekking op heeft." ;
   skos:prefLabel "Type dekking in tijd" ;
   dcterms:hasFormat <https://context.opslag.razu.nl/dekkingintijdtype.json> .
 

@@ -4,7 +4,7 @@
 <https://data.razu.nl/id/waardering/461877e891f3a8680d2ec67636a1d8f2>
   a skos:ConceptScheme ;
   skos:prefLabel "Waarderingen" ;
-  skos:note "Deze begrippenlijst biedt de mogelijkheid om onderscheid te maken tussen blijvend te bewaren en tijdelijk te bewaren (oftewel op termijn te vernietigen) informatieobjecten." ;
+  skos:description "Deze begrippenlijst biedt de mogelijkheid om onderscheid te maken tussen blijvend te bewaren en tijdelijk te bewaren (oftewel op termijn te vernietigen) informatieobjecten." ;
   dcterms:hasFormat <https://context.opslag.razu.nl/waardering.json> .
 
 <https://data.razu.nl/id/waardering/f41d48ac0e70962eb37cae19e87c577f>

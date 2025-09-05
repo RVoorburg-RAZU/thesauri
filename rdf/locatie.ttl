@@ -8,7 +8,7 @@
 <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43>
    a skos:ConceptScheme ;
    skos:prefLabel "Locaties"@nl;
-   skos:note "Waardenlijst locaties"@nl ;
+   skos:description "Waardenlijst locaties"@nl ;
    dcterms:hasFormat <https://context.opslag.razu.nl/algoritme.json> .
 
 <https://data.razu.nl/id/locatie/4fbf1371d27645fce1e2fee1191a59c2> 
@@ -171,7 +171,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 
-<https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>
+<https://data.razu.nl/id/locatie/a31c18cbca2ebdc7f2b05e02df638d9b>
     a schema:Place, skos:Concept  ;
     skos:prefLabel "Tricht (plaats)"@nl ;
     schema:name "Tricht"@nl ;
@@ -248,7 +248,7 @@
         schema:description "Een representatief punt in de plaats Schalkwijk"@nl 
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2724869> ;
-    skos:inScheme <https://data.razu.nl/id//00c28ef1f380c89a94e3b00e5c865a43> .
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c03189135b5f13ea1da74bd972d8f57a>
     a schema:Place, skos:Concept  ;
