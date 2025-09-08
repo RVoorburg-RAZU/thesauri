@@ -27,7 +27,6 @@ wheels/
 *.swp
 *.swo
 
-# Overig
 .env
 .DS_Store
 
